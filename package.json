@@ -1,7 +1,7 @@
 {
-  "name": "launcher",
-  "version": "1.0.0",
-  "description": "My Game Launcher",
+  "name": "mod-docker",
+  "version": "1.0.7",
+  "description": "My Electron-based game launcher for Doki Doki Literature Club mods.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
