@@ -1,0 +1,28 @@
+{
+  "name": "launcher",
+  "version": "1.0.0",
+  "description": "My Game Launcher",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.2.1",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.yourname.gamelauncher",
+    "win": {
+      "target": "nsis",
+      "icon": "images/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
