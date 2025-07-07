@@ -8,102 +8,33 @@
 const games = [
     {
         id: 'game1',
-        name: 'A Brand New Day',
-        image: 'images/pathm.png',
-        description: 'A Brand New Day is a full-conversion mod for Doki Doki Literature Club that rewrites the original story with a lighter, more hopeful tone. Take on the role of a self-aware protagonist as you try to protect the girls from the horrors of the original timeline—and maybe even change their fate.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - A Brand New Day\\DDLC.exe"
+        name: 'Half-Life',
+        image: 'images/half.jpg',
+        description: 'Half-Life is a first-person shooter game developed by Valve Corporation. It was released in 1998 and has since become a landmark title in the gaming industry, known for its immersive storytelling and innovative gameplay mechanics.',
+        path: "D:\\Games\\Half-Life - Source Quadrilogy\\halflife.bat"
     },
     {
         id: 'game2',
-        name: 'Abridged',
-        image: 'images/maxresdefault.jpg',
-        description: 'Abridged is a comedy/parody mod for Doki Doki Literature Club that reimagines the story with sarcastic humor, meta jokes, and absurd twists. Nothing is sacred—and everything is fair game.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Abridged\\DDLCAoHILtSWaLtM.exe"
+        name: 'Half-Life 2',
+        image: 'images/half2.jpg',
+        description: 'Half-Life 2 is a first-person shooter game developed by Valve Corporation. It was released in 2004 and is the sequel to the original Half-Life. The game is known for its advanced physics engine, immersive storytelling, and engaging gameplay.',
+        path: "D:\\Games\\Half-Life - Source Quadrilogy\\half2.bat"
     },
     {
         id: 'game3',
-        name: 'Blue Skies',
-        image: 'images/blue.jpg',
-        description: 'Blue Skies is a full-length Doki Doki Literature Club mod that removes the horror elements and replaces them with a deep, emotional, and heartwarming slice-of-life story. Explore new routes, choices, and meaningful relationships with each of the girls.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Blue Skies\\DDLC.exe"
+        name: 'Half-Life 2: Episode One',
+        image: 'images/half2_1.jpg',
+        description: 'Half-Life 2: Episode One is a first-person shooter game developed by Valve Corporation. It was released in 2006 as a sequel to Half-Life 2. The game continues the story of Gordon Freeman as he fights against the Combine forces in City 17.',
+        path: "D:\\Games\\Half-Life - Source Quadrilogy\\half21.bat"
     },
     {
         id: 'game4',
-        name: 'Exit Music',
-        image: 'images/thumbnail.jpg',
-        description: 'Exit Music is a dark, emotional DDLC mod that follows an alternate timeline where Sayori survives—but struggles with trauma and depression. Featuring a dramatic story, original soundtrack, and multiple endings.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Exit Music\\DDLC.exe"
-    },
-    {
-        id: 'game5',
-        name: 'Exit Music Redux',
-        image: 'images/redux.png',
-        description: 'Exit Music: Redux is a reimagining of the original Exit Music mod, featuring improved writing, new scenes, and a refined narrative. Dive into a darker, more emotionally grounded story where your choices matter—and the consequences are real.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Exit Music Redux\\ExitMusicRedux.exe"
-    },
-    {
-        id: 'game6',
-        name: 'Fallen Angel',
-        image: 'images/fallen.png',
-        description: 'Fallen Angel is a DDLC mod that explores Yuri’s character in a more grounded, emotional story. With a focus on mental health and romance, it offers a deep, serious alternate route free from the original horror.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Fallen Angel\\DDLC.exe"
-    },
-    {
-        id: 'game7',
-        name: 'Monika After Story',
-        image: 'images/after.jpg',
-        description: 'Monika After Story is a DDLC mod that continues the game after the original ending. Spend time with Monika in a virtual space where she learns, grows, and bonds with you the longer you stay.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Monika After Story\\DDLC.exe"
-    },
-    {
-        id: 'game8',
-        name: 'Monika Before Story',
-        image: 'images/before.png',
-        description: 'Monika Before Story is a DDLC mod that puts Monika in the spotlight from the start, giving her a full route alongside the other girls. Experience the original story with new choices, dialogue, and a fresh perspective.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Monika Before Story\\DDLC.exe"
-    },
-    {
-        id: 'game9',
-        name: 'Our Time',
-        image: 'images/our.jpg',
-        description: 'Our Time is a sequel mod to DDLC that builds a full romantic route with Monika in a post-canon world. Reconnect with her in a heartfelt story about love, healing, and starting over—together.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Our Time\\DDLC.exe"
-    },
-    {
-        id: 'game10',
-        name: 'Purist',
-        image: 'images/purist.png',
-        description: 'The Purist Mod restores the original DDLC story without the horror, adding full romantic routes for all four girls. Enjoy a wholesome, choice-driven experience that focuses on character development and meaningful relationships.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Purist\\DDLC.exe"
-    },
-    {
-        id: 'game11',
-        name: 'Salvation',
-        image: 'images/salvation.png',
-        description: 'Salvation is a DDLC mod where you save Sayori before tragedy strikes, leading to a new story of healing, friendship, and love. Includes original scenes, new music, and multiple character routes.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Salvation\\DDLC.exe"
-    },
-    {
-        id: 'game12',
-        name: 'Salvation Remake',
-        image: 'images/remake.png',
-        description: 'Salvation: Remake is a modern reimagining of the original DDLC Salvation mod, featuring rewritten dialogue, new scenes, updated visuals, and deeper emotional storytelling—while preserving its focus on saving Sayori and supporting the others.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Salvation Remake\\DokiDokiSalvRemakeFINALDDMC.exe"
-    },
-    {
-        id: 'game13',
-        name: 'Summertime',
-        image: 'images/summer.png',
-        description: 'Summertime is a slice-of-life DDLC mod that reimagines the story in a peaceful, school break setting. Focus on friendships, romance, and character-driven choices—with no horror, just good vibes and summer fun.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Summertime\\DDLC.exe"
-    },
-    {
-        id: 'game14',
-        name: 'Triple Trouble',
-        image: 'images/triple.png',
-        description: 'Triple Trouble is a DDLC mod that features simultaneous routes with Sayori, Yuri, and Natsuki—navigating love, jealousy, and consequences. Your choices shape a complex, drama-filled story with multiple outcomes.',
-        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Triple Trouble\\DDTT.exe"
+        name: 'Half-Life 2: Episode Two',
+        image: 'images/half2_2.jpg',
+        description: 'Half-Life 2: Episode Two is a first-person shooter game developed by Valve Corporation. It was released in 2007 as a sequel to Half-Life 2: Episode One. The game continues the story of Gordon Freeman and Alyx Vance as they fight against the Combine forces and try to reach the resistance base.',
+        path: "D:\\Games\\Half-Life - Source Quadrilogy\\half22.bat"
     }
+    
 
 ];
 

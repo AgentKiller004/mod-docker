@@ -1,7 +1,7 @@
 {
-  "name": "mod-docker",
-  "version": "1.0.7",
-  "description": "My Electron-based game launcher for Doki Doki Literature Club mods.",
+  "name": "Half-Life-Launcher",
+  "version": "2.0.0",
+  "description": "Half-Life Quadrilogy Launcher",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -15,10 +15,10 @@
     "electron-builder": "^25.0.0"
   },
   "build": {
-    "appId": "com.yourname.gamelauncher",
+    "appId": "com.yourname.halflauncher",
     "win": {
       "target": "nsis",
-      "icon": "images/icon.ico"
+      "icon": "images/icon1.ico"
     },
     "nsis": {
       "oneClick": false,
