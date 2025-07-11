@@ -103,6 +103,20 @@ const games = [
         image: 'images/triple.png',
         description: 'Triple Trouble is a DDLC mod that features simultaneous routes with Sayori, Yuri, and Natsuki—navigating love, jealousy, and consequences. Your choices shape a complex, drama-filled story with multiple outcomes.',
         path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Triple Trouble\\DDTT.exe"
+    },
+    {
+        id: 'game15',
+        name: 'Longer Roads',
+        image: 'images/longer.jpg',
+        description: 'Longer Roads is a DDLC mod that continues after the original events, focusing on recovery, forgiveness, and rebuilding relationships. With multiple paths and a grounded tone, it explores the lasting impact of past choices.',
+        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Longer Roads\\DDLC.exe"
+    },
+    {
+        id: 'game16',
+        name: 'The Fruits of the Literature Club',
+        image: 'images/fruits.png',
+        description: 'The Fruits of the Literature Club is a dramatic, mature-themed DDLC mod inspired by The Fruit of Grisaia. Enter a darker, more intense story where each girl hides a troubled past—and your choices lead to deeply personal, emotional routes.',
+        path: "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - The Fruits of the Literature Club\\DDLC.exe"
     }
 
 ];
