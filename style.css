@@ -19,7 +19,7 @@ body, html {
     box-shadow: 2px 0 5px rgba(0,0,0,0.5);
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    overflow-y: scroll;
     background: linear-gradient(rgba(26, 26, 26, 0.8), rgba(26, 26, 26, 0.8)), url('images/side.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -82,10 +82,9 @@ body, html {
     line-height: 1.6;
     color: #ccc;
 }
-
 .launch-button {
-    background-color: #00aaff;
-    color: #fff;
+    background-color: #ff59a9; /* A vibrant, DDLC-themed pink */
+    color: #ffffff;
     border: none;
     padding: 15px 40px;
     font-size: 1.5em;
@@ -98,7 +97,7 @@ body, html {
 }
 
 .launch-button:hover {
-    background-color: #0088cc;
+    background-color: #ff7fbc; /* A slightly lighter pink for hover */
     transform: scale(1.05);
 }
 /* --- Custom Scrollbar Styles --- */
@@ -123,4 +122,37 @@ body, html {
 /* The handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #0088cc; /* A slightly darker or brighter version for hover effect */
+}
+/* --- Category Filter Styles (Vertical Layout) --- */
+.category-filters {
+    display: flex;
+    flex-direction: column; /* This is the key change to stack buttons vertically */
+    gap: 10px; /* This now controls the vertical space between buttons */
+    margin-bottom: 25px;
+    align-items: stretch; /* This makes all filter buttons the same width */
+}
+
+.category-button {
+    background-color: transparent;
+    color: #a0a0a0;
+    border: 1px solid #2e7d32; /* Green border */
+    padding: 10px; /* Adjusted padding for the new layout */
+    font-size: 1em; /* Slightly increased font size for better readability */
+    border-radius: 5px; /* Original squared shape */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center; /* Ensures text is centered */
+    font-weight: 500;
+}
+
+.category-button:hover {
+    background-color: #2e7d32; /* Green background on hover */
+    color: #fff;
+}
+
+.category-button.active {
+    background-color: #4caf50; /* A brighter green for the active button */
+    color: #ffffff;
+    border-color: #4caf50; /* Matching border color */
+    font-weight: bold;
 }
