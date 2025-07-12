@@ -1,6 +1,6 @@
 {
   "name": "doki-doki-literature-club-mod-launcher",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "My Electron-based game launcher for Doki Doki Literature Club mods.",
   "main": "main.js",
   "scripts": {

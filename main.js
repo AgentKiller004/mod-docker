@@ -16,6 +16,11 @@ function createWindow() {
   win.loadFile('index.html');
   win.setMenuBarVisibility(false);
 }
+ipcMain.handle('get-games', async () => {
+  const filePath = path.join(__dirname, 'games.json');
+  const data = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(data);
+});
 
 app.whenReady().then(() => {
   createWindow();
