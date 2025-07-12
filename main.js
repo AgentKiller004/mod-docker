@@ -1,3 +1,4 @@
+const fs = require('fs');
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 const { execFile } = require('child_process');

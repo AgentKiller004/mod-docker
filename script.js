@@ -1,13 +1,5 @@
-// --- Game Configuration ---
-// Add your games here.
-// 'id' is a unique identifier.
-// 'name' is the display name.
-// 'image' is the path to the game's banner image in your 'images' folder.
-// 'description' is a short text about the game.
-// 'path' will be the command to launch the game's .exe when using Electron.
-
-// --- Launcher Logic ---
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    const games = await window.electronAPI.getGames();
     const gameList = document.getElementById('game-list');
     const gameTitle = document.getElementById('game-title');
     const gameImage = document.getElementById('game-image');
@@ -59,5 +51,4 @@ document.addEventListener('DOMContentLoaded', () => {
         // Use the exposed API to send the game path to the main process
         window.electronAPI.launchGame(game.path);
     });
-
 });
