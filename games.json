@@ -110,5 +110,40 @@
         "image": "images/fruits.png",
         "description": "The Fruits of the Literature Club is a dramatic, mature-themed DDLC mod inspired by The Fruit of Grisaia. Enter a darker, more intense story where each girl hides a troubled past—and your choices lead to deeply personal, emotional routes.",
         "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - The Fruits of the Literature Club\\DDLC.exe"
+    },
+    {
+        "id": "game17",
+        "name": "The Good Ending",
+        "image": "images/good.jpg",
+        "description": "The Good Ending is a DDLC mod that rewrites the story to give all the girls a chance at happiness. With new routes, heartfelt moments, and a focus on healing, it offers a hopeful alternative to the original game’s dark narrative.",
+        "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - The Good Ending\\DDLC.exe"
+    },
+    {
+        "id": "game18",
+        "name": "Within",
+        "image": "images/with.jpg",
+        "description": "Within is a psychological horror DDLC mod that dives into themes of trauma, identity, and isolation. Experience a dark, introspective narrative with disturbing twists and original visual effects.",
+        "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Within\\DDLC.exe"
+    },
+    {
+        "id": "game19",
+        "name": "Yandere Club",
+        "image": "images/yandere.jpg",
+        "description": "Yandere Club is a darkly comedic DDLC mod that turns up the obsession—every girl is a yandere. Expect jealousy, chaos, and violent twists in this bloody reimagining of the Literature Club.",
+        "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - Yandere Club\\DDLC.exe"
+    },
+    {
+        "id": "game20",
+        "name": "World of Dreams Act 1",
+        "image": "images/wod_1.jpg",
+        "description": "World of Dreams – Act 1 is a lore-rich DDLC mod that blends romance, mystery, and supernatural elements. Discover hidden truths about the Literature Club as reality begins to fracture around you.",
+        "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - World of Dreams Act 1\\DDLC.exe"
+    },
+    {
+        "id": "game21",
+        "name": "World of Dreams Act 2",
+        "image": "images/wod_2.jpg",
+        "description": "World of Dreams – Act 2 continues the surreal, emotional journey as the boundaries between dream and reality blur even further. Deepen your bonds, uncover secrets, and face the consequences of your choices.",
+        "path": "D:\\Games\\Doki Doki Literature Club\\Doki Doki Literature Club Manual Mods\\Doki Doki Literature Club - World of Dreams Act 2\\WoDActTwo.exe"
     }
 ]
