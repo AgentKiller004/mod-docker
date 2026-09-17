@@ -18,9 +18,14 @@ function createWindow() {
   win.setMenuBarVisibility(false);
 }
 ipcMain.handle('get-games', async () => {
-  const filePath = path.join(__dirname, 'games.json');
-  const data = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(data);
+  try {
+    const filePath = path.join(__dirname, 'games.json');
+    const data = await fs.promises.readFile(filePath, 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Failed to read or parse games.json:', error);
+    return [];
+  }
 });
 
 app.whenReady().then(() => {
@@ -40,15 +45,24 @@ app.on('window-all-closed', () => {
 });
 
 // Listen for the 'launch-game' message from the renderer process
-ipcMain.on('launch-game', (event, executablePath) => {
-  console.log(`Attempting to launch: ${executablePath}`);
-  
-  execFile(executablePath, (error, data) => {
-    if (error) {
-      console.error('Failed to launch game:', error);
-      // You could send an error message back to the renderer window here
+ipcMain.on('launch-game', async (event, gameId) => {
+  try {
+    const filePath = path.join(__dirname, 'games.json');
+    const data = await fs.promises.readFile(filePath, 'utf8');
+    const games = JSON.parse(data);
+    const game = games.find(g => g.id === gameId);
+
+    if (game && game.path) {
+      const executablePath = game.path;
+      execFile(executablePath, (error, data) => {
+        if (error) {
+          console.error('Failed to launch game:', error);
+        }
+      });
     } else {
-      console.log('Game launched successfully:', data);
+      console.error('Game not found or path is missing');
     }
-  });
+  } catch (error) {
+    console.error('Failed to launch game:', error);
+  }
 });

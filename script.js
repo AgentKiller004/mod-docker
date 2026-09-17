@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const game = games.find(g => g.id === selectedGameId);
         if (game) {
-            window.electronAPI.launchGame(game.path);
+            window.electronAPI.launchGame(game.id);
         }
     });
 
